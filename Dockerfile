@@ -10,4 +10,4 @@ RUN mkdir /var/run/dbus
 
 ADD avahi-daemon.conf /etc/avahi/avahi-daemon.conf
 
-CMD [ "/usr/sbin/avahi-daemon" ]
+CMD [ "bash", "-c", "'sleep 1 && avahi-daemon'" ]
