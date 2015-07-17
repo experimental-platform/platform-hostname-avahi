@@ -9,3 +9,5 @@
     avahi-daemon: starting up: iface-linux.c:380: avahi_interface_monitor_sync: Assertion `m' failed.
 
 Committed anyhow as module testing is supposed to catch the bug. 
+
+## FIX: It's a rece condition, just add a little bit of sleep to fix it m(
