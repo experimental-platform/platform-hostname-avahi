@@ -1,13 +1,7 @@
-# CURRENTLY DEFECT
+# Experimental Platform: AVAHI ANNOUNCEMENT
 
-## This service curently bails with a strange error message:
+Announcing the experimental platforms IP address via avahi/zeroconf.
 
-    $ docker run -ti --name=test123  --rm --net=host dockerregistry.protorz.net/hostname-avahi:latest avahi-daemon --no-drop-root --debug
-    avahi-daemon 0.6.31 starting up.
-    No service file found in /etc/avahi/services.
-    netlink.c: bind(): Address already in use
-    avahi-daemon: starting up: iface-linux.c:380: avahi_interface_monitor_sync: Assertion `m' failed.
+This is a component of the experimental platform. To read more about it please go here:
 
-Committed anyhow as module testing is supposed to catch the bug. 
-
-## FIX: It's a rece condition, just add a little bit of sleep to fix it m(
+[https://github.com/orgs/experimental-platform/platform-configure-script](https://github.com/orgs/experimental-platform/platform-configure-script)
