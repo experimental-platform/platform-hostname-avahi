@@ -2,7 +2,7 @@ FROM experimentalplatform/ubuntu:latest
 
 
 RUN apt-get update && \
-    apt-get install -y build-essential curl libnss-mdns avahi-daemon avahi-utils lsof && \
+    apt-get install -y avahi-daemon && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
