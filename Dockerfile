@@ -12,4 +12,6 @@ COPY ssh.service /etc/avahi/services/ssh.service
 COPY http.service /etc/avahi/services/http.service
 COPY avahi-daemon.conf /etc/avahi/avahi-daemon.conf
 
-CMD [ "avahi-daemon" ]
+COPY entrypoint.sh /entrypoint.sh
+
+CMD [ "/entrypoint.sh" ]
