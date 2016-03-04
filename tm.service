@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone='no'?>
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+  <name replace-wildcards="yes">%h</name>
+  <service protocol="ipv4">
+    <type>_adisk._tcp</type>
+    <port>9</port>
+    <txt-record>sys=waMA=0,adVF=0x100</txt-record>
+    <txt-record>dk0=adVF=0xa1,adVN=TimeMachine,adVU=root</txt-record>
+  </service>
+</service-group>
