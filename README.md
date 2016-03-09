@@ -9,12 +9,13 @@ This is a component of the experimental platform. To read more about it please g
 
 ## Branch: Development
 
-[![Circle CI](https://circleci.com/gh/experimental-platform/platform-hostname-avahi.svg?style=svg&circle-token=9484b42e0a4346b807f5ec4e1b0e3ca696b73279)](https://circleci.com/gh/experimental-platform/platform-hostname-avahi)
+[![Build Status](https://travis-ci.org/experimental-platform/platform-hostname-avahi.svg?branch=development)](https://travis-ci.org/experimental-platform/platform-hostname-avahi)
 
 All development branches stem from and (re-)integrate here.
 
 ## Branch: Master
 
-[![Circle CI](https://circleci.com/gh/experimental-platform/platform-hostname-avahi/tree/master.svg?style=svg&circle-token=9484b42e0a4346b807f5ec4e1b0e3ca696b73279)](https://circleci.com/gh/experimental-platform/platform-hostname-avahi/tree/master)
+[![Build Status](https://travis-ci.org/experimental-platform/platform-hostname-avahi.svg?branch=master)](https://travis-ci.org/experimental-platform/platform-hostname-avahi)
 
 This is the base for &alpha;-channel releases.
+
